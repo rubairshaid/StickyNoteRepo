@@ -1,0 +1,79 @@
+
+.design_note{
+    .note{
+        background-color:silver;
+        height: 250px;
+        width: 250px;
+        padding: 5px;
+        margin: 15px;
+
+     
+        overflow-y: scroll;
+
+        overflow-x: hidden;
+            // text-overflow: ellipsis;
+            // white-space: nowrap;
+        .note_title{
+            color: rgb(24, 22, 22);
+            //  padding-block-start: 5px;
+             padding-inline-start:6px;
+                        }
+        .note_p{
+           
+
+
+            color: blanchedalmond;
+            padding-block-start: 5px;
+            padding-inline-start: 5px;
+            height: 130px;
+        
+        }
+
+
+    } 
+}
+.far{
+    backface-visibility-color:white ;
+     float: right;
+     padding: 10px;
+    
+}
+.left_circule{
+    border: none;
+
+    float: left;
+    padding:5px;
+    .fa-circle{
+        // padding-right: 5px;
+        
+     
+        padding: 4px;
+        &.special{
+            margin-left: 25px;
+         
+        }   
+      
+      
+    
+      }
+      .fa-circle:hover{
+          background: lawngreen;
+          border: none;
+          &.wight{
+            background:white;
+            border: none;
+          }
+          &.red{
+              background: tomato; }
+
+        &.green{
+                  background: rgb(125, 192, 125);
+              }
+        &.blue{
+                  background: rgb(85, 142, 207);
+
+              }
+         
+         
+      }
+}
